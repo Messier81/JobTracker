@@ -1,0 +1,13 @@
+.boxy {
+  font-weight: bold;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+  border-radius: 25px;
+}
+
+.boxes {
+  background-color: rebeccapurple;
+  text-align: center;
+}
