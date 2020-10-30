@@ -11,27 +11,39 @@ class Main extends React.Component {
     return (
       <Tabs defaultActiveKey="tab-1" id="uncontrolled-tab">
         <Tab eventKey="tab-1" title="Home">
-          <Container fluid>
-            <Row className="justify-content-center">
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-              <Box />
-            </Row>
-          </Container>
+          <div className="flex-container">
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+          </div>
         </Tab>
         <Tab eventKey="tab-2" title="Profile">
           dasd

@@ -6,7 +6,7 @@ const BlogPost = require("../models/blogPost");
 router.get("/", (req, res) => {
   BlogPost.find({})
     .then((data) => {
-      console.log("Data", data);
+      console.log("Data", data + "AAAAAAAAAAAAAAAAAAAAAA");
       res.json(data);
     })
     .catch((error) => {
